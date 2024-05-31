@@ -1,0 +1,19 @@
+{
+    "name": "geertjanknapen1/statamic-automatic-deepl-translations",
+    "autoload": {
+        "psr-4": {
+            "Geertjanknapen1\\StatamicAutomaticDeeplTranslations\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Automatic Deepl Translations",
+            "description": "Statamic Automatic Deepl Translations addon"
+        },
+        "laravel": {
+            "providers": [
+                "Geertjanknapen1\\StatamicAutomaticDeeplTranslations\\ServiceProvider"
+            ]
+        }
+    }
+}
